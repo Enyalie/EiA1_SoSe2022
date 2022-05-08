@@ -1,0 +1,44 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to bottom right, #0b51dd 0%, #001847 100%);
+}
+
+.wrapper {
+    display: inline-block;
+    opacity: .5;
+    transition: all .3s;
+}
+
+.wrapper:hover, .wrapper.active {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stars {
+    width: 150px;
+}
+
+nav {
+    margin: 60px;
+    margin-bottom: 10px;
+}
+
+section {
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+}
+
+footer p {
+    margin-top: 50px;
+    font-size: 10px;
+    opacity: 0.5;
+}
