@@ -73,9 +73,9 @@ namespace Aufgabe7 {
             document.querySelector(".einwohnerzahl").innerHTML = "Einwohnerzahl in Deutschland";
             document.querySelector(".gesamtzahlEinwohneris").innerHTML = "" + ((de2022)) + " Mio.";
             document.querySelector(".text").innerHTML = "Gesamtzahl Einwohneris in Deutschland 2022";
-            document.querySelector(".verhältnisZurGesamtzahl").innerHTML = "" + ((de2022 / eu2021 * 100)).toFixed(2) + "%";
-            document.querySelector(".wachstumsrateProzent").innerHTML = "" + ((de2022 - de2010) / de2022 * 100).toFixed(2) + "%";
-            document.querySelector(".wachstumsrateZahl").innerHTML = "" + ((de2022 - de2010)).toFixed(2) + " Mio.";
+            document.querySelector(".verhältnisZurGesamtzahli").innerHTML = "" + ((de2022 / eu2021 * 100)).toFixed(2) + "%";
+            document.querySelector(".wachstumsrateProzenti").innerHTML = "" + ((de2022 - de2010) / de2022 * 100).toFixed(2) + "%";
+            document.querySelector(".wachstumsrateZahli").innerHTML = "" + ((de2022 - de2010)).toFixed(2) + " Mio.";
             document.querySelector(".chart").setAttribute("style", "height: " +  (de2022 / eu2021 * 100) + "%");
         });
 
@@ -84,9 +84,9 @@ namespace Aufgabe7 {
             document.querySelector(".einwohnerzahl").innerHTML = "Einwohnerzahl in Frankreich";
             document.querySelector(".gesamtzahlEinwohneris").innerHTML = "" + ((fr2022)) + " Mio.";
             document.querySelector(".text").innerHTML = "Gesamtzahl Einwohneris in Frankreich 2022";
-            document.querySelector(".verhätlnisZurGesamtzahl").innerHTML = "" + ((fr2022 / eu2021 * 100)).toFixed(2) + "%";
-            document.querySelector(".wachstumsrateProzent").innerHTML = "" + ((fr2022 - fr2010) / fr2022 * 100).toFixed(2) + "%";
-            document.querySelector(".wachstumsrateZahl").innerHTML = "" + ((fr2022 - fr2010)).toFixed(2) + " Mio.";
+            document.querySelector(".verhätlnisZurGesamtzahli").innerHTML = "" + ((fr2022 / eu2021 * 100)).toFixed(2) + "%";
+            document.querySelector(".wachstumsrateProzenti").innerHTML = "" + ((fr2022 - fr2010) / fr2022 * 100).toFixed(2) + "%";
+            document.querySelector(".wachstumsrateZahli").innerHTML = "" + ((fr2022 - fr2010)).toFixed(2) + " Mio.";
             document.querySelector(".chart").setAttribute("style", "height: " +  (fr2022 / eu2021 * 100) + "%");
         });
 
@@ -95,9 +95,9 @@ namespace Aufgabe7 {
             document.querySelector(".einwohnerzahl").innerHTML = "Einwohnerzahl in Italien";
             document.querySelector(".gesamtzahlEinwohneris").innerHTML = "" + ((it2022)) + " Mio.";
             document.querySelector(".text").innerHTML = "Gesamtzahl Einwohneris in Italien 2022";
-            document.querySelector(".verhätlnisZurGesamtzahl").innerHTML = "" + ((it2022 / eu2021 * 100)).toFixed(2) + "%";
-            document.querySelector(".wachstumsrateProzent").innerHTML = "" + ((it2022 - it2010) / it2022 * 100).toFixed(2) + "%";
-            document.querySelector(".wachstumsrateZahl").innerHTML = "" + ((it2022 - it2010)).toFixed(2) + " Mio.";
+            document.querySelector(".verhätlnisZurGesamtzahli").innerHTML = "" + ((it2022 / eu2021 * 100)).toFixed(2) + "%";
+            document.querySelector(".wachstumsrateProzenti").innerHTML = "" + ((it2022 - it2010) / it2022 * 100).toFixed(2) + "%";
+            document.querySelector(".wachstumsrateZahli").innerHTML = "" + ((it2022 - it2010)).toFixed(2) + " Mio.";
             document.querySelector(".chart").setAttribute("style", "height: " +  (it2022 / eu2021 * 100) + "%");
         });
 
@@ -106,9 +106,9 @@ namespace Aufgabe7 {
             document.querySelector(".einwohnerzahl").innerHTML = "Einwohnerzahl in der Schweiz";
             document.querySelector(".gesamtzahlEinwohneris").innerHTML = "" + ((schw2022)) + " Mio.";
             document.querySelector(".text").innerHTML = "Gesamtzahl Einwohneris in der Schweiz 2022";
-            document.querySelector(".verhätlnisZurGesamtzahl").innerHTML = "" + ((schw2022 / eu2021 * 100)).toFixed(2) + "%";
-            document.querySelector(".wachstumsrateProzent").innerHTML = "" + ((schw2022 - schw2010) / schw2022 * 100).toFixed(2) + "%";
-            document.querySelector(".wachstumsrateZahl").innerHTML = "" + ((schw2022 - schw2010)).toFixed(2) + " Mio.";
+            document.querySelector(".verhätlnisZurGesamtzahli").innerHTML = "" + ((schw2022 / eu2021 * 100)).toFixed(2) + "%";
+            document.querySelector(".wachstumsrateProzenti").innerHTML = "" + ((schw2022 - schw2010) / schw2022 * 100).toFixed(2) + "%";
+            document.querySelector(".wachstumsrateZahli").innerHTML = "" + ((schw2022 - schw2010)).toFixed(2) + " Mio.";
             document.querySelector(".chart").setAttribute("style", "height: " +  (schw2022 / eu2021 * 100) + "%");
         });
 
@@ -118,9 +118,9 @@ namespace Aufgabe7 {
             document.querySelector(".gesamtzahlEinwohneris").innerHTML = "" + ((eu2021)) + " Mio.";
             document.querySelector(".text").innerHTML = "Gesamtzahl Einwohneris in der europäischen Union 2022";
             document.querySelector(".text2").innerHTML = "Relativ zur Gesamtzahl in Europa";
-            document.querySelector(".verhätlnisZurGesamtzahl").innerHTML = "" + ((eu2021 / europa2022 * 100)).toFixed(2) + "%";
-            document.querySelector(".wachstumsrateProzent").innerHTML = "" + ((eu2021 - eu2010) / eu2021 * 100).toFixed(2) + "%";
-            document.querySelector(".wachstumsrateZahl").innerHTML = "" + ((eu2021 - eu2010)).toFixed(2) + " Mio.";
+            document.querySelector(".verhätlnisZurGesamtzahli").innerHTML = "" + ((eu2021 / europa2022 * 100)).toFixed(2) + "%";
+            document.querySelector(".wachstumsrateProzenti").innerHTML = "" + ((eu2021 - eu2010) / eu2021 * 100).toFixed(2) + "%";
+            document.querySelector(".wachstumsrateZahli").innerHTML = "" + ((eu2021 - eu2010)).toFixed(2) + " Mio.";
             document.querySelector(".chart").setAttribute("style", "height: " +  (eu2021 / europa2022 * 100) + "%");
         });
 }
