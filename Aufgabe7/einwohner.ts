@@ -101,7 +101,7 @@ namespace Aufgabe7 {
             document.querySelector(".chart").setAttribute("style", "height: " +  (it2022 / eu2021 * 100) + "%");
         });
 
-    document.querySelector("#Schweiz")
+    document.querySelector("#luxemburg")//weil Schweiz nicht zur Auswahl steht, ich aber zu dumm war das letztes mal zu begreifen:)
         .addEventListener("click", function (): void {
             document.querySelector(".einwohnerzahl").innerHTML = "Einwohnerzahl in der Schweiz";
             document.querySelector(".gesamtzahlEinwohneris").innerHTML = "" + ((schw2022)) + " Mio.";
