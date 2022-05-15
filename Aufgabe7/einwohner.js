@@ -34,7 +34,7 @@ var Aufgabe7;
     anteilEu2022(land2, jahr, fr2022);
     anteilEu2022(land3, jahr, it2022);
     anteilEu2022(land4, jahr, schw2022);
-    function anteilEuropa2022(land, jahr, europa2022) {
+    function anteilEuropa2022(_land, jahr, europa2022) {
         const euBerechnung = eu2021 / europa2022 * 100;
         console.log("Im Verhältnis zur Gesamtzahl in der EU " + " in " + europa5 + jahr + ": " + euBerechnung + " %");
     }
