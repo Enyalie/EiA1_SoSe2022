@@ -73,7 +73,7 @@ namespace Aufgabe7 {
             document.querySelector(".einwohnerzahl").innerHTML = "Einwohnerzahl in Deutschland";
             document.querySelector(".gesamtzahlEinwohneris").innerHTML = "" + ((de2022)) + " Mio.";
             document.querySelector(".text").innerHTML = "Gesamtzahl Einwohneris in Deutschland 2022";
-            document.querySelector(".relativZurGesamtzahl").innerHTML = "" + ((de2022 / eu2021 * 100)).toFixed(2) + "%";
+            document.querySelector(".verhältnisZurGesamtzahl").innerHTML = "" + ((de2022 / eu2021 * 100)).toFixed(2) + "%";
             document.querySelector(".wachstumsrateProzent").innerHTML = "" + ((de2022 - de2010) / de2022 * 100).toFixed(2) + "%";
             document.querySelector(".wachstumsrateZahl").innerHTML = "" + ((de2022 - de2010)).toFixed(2) + " Mio.";
             document.querySelector(".chart").setAttribute("style", "height: " +  (de2022 / eu2021 * 100) + "%");
