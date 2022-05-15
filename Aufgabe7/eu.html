@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Carbon Dioxide Emissions</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="../Aufgabe7/einwohner.js" deffer ></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="einwohner.js" defer></script>
 </head>
 
 <body>
     <nav>
         <div class="row">
-            <div class="wrapper">
-                <img src="images/germany.png" height="76px" class="germany">
+            <div class="wrapper active">
+                <img id="deutschland" src="images/germany.png" height="76px" class="germany">
                 <h5>Deutschland</h5>
             </div>
             <div class="wrapper">
@@ -56,7 +56,7 @@
                 <h5>Finnland</h5>
             </div>
             <div class="wrapper active">
-                <img src="images/france.png" height="76px" class="france">
+                <img id="frankreich" src="images/france.png" height="76px" class="france">
                 <h5>Frankreich</h5>
             </div>
             <div class="wrapper">
@@ -71,8 +71,8 @@
                 <img src="images/ireland.png" height="76px" class="ireland">
                 <h5>Irland</h5>
             </div>
-            <div class="wrapper">
-                <img src="images/italy.png" height="76px" class="italy">
+            <div class="wrapper active">
+                <img id="italien" src="images/italy.png" height="76px" class="italy">
                 <h5>Italien</h5>
             </div>
             <div class="wrapper">
@@ -83,8 +83,8 @@
                 <img src="images/lithuania.png" height="76px" class="lithuania">
                 <h5>Litauen</h5>
             </div>
-            <div class="wrapper">
-                <img src="images/luxembourg.png" height="76px" class="luxembourg">
+            <div class="wrapper active">
+                <img id="luxemburg" src="images/luxembourg.png" height="76px" class="luxembourg">
                 <h5>Luxemburg</h5>
             </div>
         </div>
@@ -127,31 +127,38 @@
             </div>
         </div>
     </nav>
-
-    <img src="images/eu_stars.png" class="stars">
-    <h1>
-        Einwohnerzahl in der europäischen Union
-    </h1>
-
     <main>
+        <div class="chartStarWrapper">
+            <img id="eurosterne" src="images/eu_stars.png" class="stars">
+
+            <div class="chartWrapper">
+                <div class="chart"></div>
+            </div>
+
+        </div>
+
+        <h1 class="einwohnerzahl">
+            Einwohnerzahl in 
+        </h1>
+
         <section>
-            <h2>65,48Mio</h2>
-            <p>Gesamtzahl Einwohnerinnen und Einwohner in Frankreich in 2022</p>
+            <h2 class="gesamtzahlEinwohnerInnen">- Mio.</h2>
+            <p class="text">Gesamtzahl Einwohnerinnen und Einwohner in 2022</p>
         </section>
 
         <section>
-            <h2>14%</h2>
-            <p>Relativ zur Gesamtzahl in der EU</p>
+            <h2 class="relativZurGesamtzahl">- %</h2>
+            <p class="text2">Relativ zur Gesamtzahl in der EU</p>
         </section>
 
         <section>
-            <h2>5,1%</h2>
-            <p>Wachstumsrate seit 2008</p>
+            <h2 class="wachstumsrateProzent">- %</h2>
+            <p>Wachstumsrate seit 2010</p>
         </section>
 
         <section>
-            <h2>3,34Mio</h2>
-            <p>Wachstumsrate gesamt zwischen 2008 and 2022</p>
+            <h2 class="wachstumsrateZahl">- Mio.</h2>
+            <p>Wachstumsrate gesamt zwischen 2010 und 2022</p>
         </section>
     </main>
 
@@ -162,18 +169,3 @@
 </body>
 
 </html>
-
-    © 2022 GitHub, Inc.
-
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
