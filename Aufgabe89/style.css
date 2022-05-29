@@ -1,0 +1,54 @@
+.button {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 0px;
+    margin: 2px;
+}
+.button:hover{
+    transform: scale(0.95);
+    }
+
+.blau {
+    background-color: #2d7ae2;
+    background: linear-gradient(#172e4d, #4980d8);
+}
+
+.pink {
+    background-color: #611a3f;
+    background: linear-gradient(#8d1754, #d40871);
+    }
+
+.orange {
+    background-color: #f6a33e;
+    background: linear-gradient(#865110, #ae5d05);
+}
+
+
+body {
+    background-color: #000000;
+}
+
+.drumpad {
+    margin: auto;
+    width: 462px;
+}
+
+.playwrapper {
+    text-align: center;
+}
+.control {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: transparent;
+    margin: 2px;
+    margin: auto;
+    color: #ffffff;
+    font-size: 80px;
+}
+
+.record-active {
+    color: #ff0000;
+}
