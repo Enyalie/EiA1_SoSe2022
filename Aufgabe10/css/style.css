@@ -1,0 +1,80 @@
+body {
+    background-image: url(/Aufgabe10/background/ddzyxvh-ca447d45-129b-477d-b10e-66103c39f913.png);;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(251, 251, 251);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    height: 100px;
+    margin: 0px;
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+    text-align: center;
+    position: relative;
+    width: 1600px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box {
+    background-color: #5e50822c;
+    background-size: cover;
+}
+
+#counterToDos {
+    color: rgb(255, 255, 255);
+}
+
+#toDo {
+    width: 400px;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+.divLabel {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.todoItem {
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+    width: 364px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: rgb(99, 99, 99);
+    outline: none;
+}
+
+.fa-trash-alt {
+    opacity: 60%;
+    font-size: 20px;
+    color: rgb(99, 99, 99);
+    cursor: pointer;
+
+}
+
+.fa-trash-alt:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.checkBox {
+    cursor: pointer;
+}
