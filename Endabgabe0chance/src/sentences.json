@@ -1,0 +1,24 @@
+{
+    "length" : 3,
+    
+    "1" : {
+        "German"    : ["Ich", "liebe", "Katzen!"],
+        "Spanish"   : ["Me", "gustan", "los Gatos!"]
+    },
+
+    "2" : {
+        "German"    : ["Ich", "liebe", "Frösche!"],
+        "Spanish"   : ["Me", "gustan", "las ranas!"]
+    },
+
+    "3" : {
+        "German"    : ["Proletarier",       "aller",    "Länder",     "vereinigt euch!"],
+        "Spanish"   : ["Los proletarios",   "de todos", "los países", "se unen"]
+    },
+
+    "4" : {
+        "German"    : ["guten", "morgen", "der Herr"],
+        "Spanish"   : ["buenos", "dies", "seniore"]
+    }
+
+}
